@@ -292,7 +292,7 @@ img {
     /* Button */
     .btn-primary,
     .contact button {
-        width: 100%;
+        width: 35%;
     }
 }
 
