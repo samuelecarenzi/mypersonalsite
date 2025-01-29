@@ -212,6 +212,12 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    width: 27%;  /* Fa sì che il link occupi tutta la larghezza disponibile sui dispositivi mobili */
+    text-align: center;  /* Centra il testo del link */
+}
+
+.contact .btn-primary:hover {
+    background-color: #ec4899;
 }
 
 /* Footer */
