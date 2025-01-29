@@ -225,9 +225,23 @@ body {
 
 /* Image */
 .portrait {
-    width: 20%;
+    width: 100%;
+    max-width: 250px; /* Dimensione massima su schermi grandi */
     border-radius: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.codinglines {
+    width: 100%;
+    max-width: 400px; /* Mantiene una dimensione gestibile */
+    
 }
 
 /* Mobile Optimization */
